@@ -1,0 +1,29 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem ; */
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+body.light {
+  --bg: #ffffff;
+  --text: #1e293b;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+body.dark {
+  --bg: #0f172a;
+  --text: #f8fafc;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+

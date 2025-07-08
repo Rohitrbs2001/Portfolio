@@ -1,0 +1,49 @@
+/* src/components/ThemeToggle.css */
+.theme-switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px;
+}
+
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 32px;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  background-color: #d1d5db;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+  border-radius: 34px;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  justify-content: flex-start;
+}
+
+.slider .icon {
+  font-size: 18px;
+  transition: 0.4s ease;
+}
+
+input:checked + .slider {
+  background-color: #1e3a8a;
+  justify-content: flex-end;
+}
+
+input:checked + .slider .icon {
+  transform: rotate(360deg);
+}

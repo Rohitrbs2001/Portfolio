@@ -1,0 +1,24 @@
+/* src/components/About.css */
+.about-section {
+  padding: 80px 20px;
+  background: linear-gradient(to right, #e2e5e6, #dcede0);
+  /* background-color: #f8fafc; */
+  color: #1e293b;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
