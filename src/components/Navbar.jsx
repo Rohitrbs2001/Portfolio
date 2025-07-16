@@ -15,7 +15,7 @@ const Navbar = () => {
           ☰
         </div>
       </div>
-
+ 
       <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
         <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>

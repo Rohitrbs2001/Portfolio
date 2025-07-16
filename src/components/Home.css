@@ -51,10 +51,13 @@
   background-color: #0ea5e9;
 }
 
-.home-image img {
-  width: 250px;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+.home-image {
+ margin-left: 100px;
 }
 
-
+.home-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
